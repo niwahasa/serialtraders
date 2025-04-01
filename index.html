@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub - Collaborative Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">StudyHub</a>
+            <div class="nav-links">
+                <a href="#courses">Courses</a>
+                <a href="#upload">Upload</a>
+                <a href="#freelance">Get Help</a>
+                <button class="btn-login">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Collaborate. Learn. Succeed.</h1>
+                <p>Connect with peers, share resources, and get academic support</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search courses...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Popular Courses</h2>
+            <div class="course-grid">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </section>
+
+    <!-- File Upload Section -->
+    <section id="upload" class="upload">
+        <div class="container">
+            <h2>Share Resources</h2>
+            <div class="upload-box">
+                <div class="drop-zone" id="dropZone">
+                    <i class="fas fa-file-upload fa-3x"></i>
+                    <p>Drag & Drop PDF or click to upload</p>
+                    <input type="file" id="fileInput" accept=".pdf">
+                </div>
+                <div class="upload-details">
+                    <input type="text" placeholder="Document title">
+                    <input type="text" placeholder="Course code">
+                    <button class="btn-upload">Share Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelance Help Section -->
+    <section id="freelance" class="freelance">
+        <div class="container">
+            <h2>Get Expert Help</h2>
+            <div class="tutors-grid">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
