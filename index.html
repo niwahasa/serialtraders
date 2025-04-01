@@ -3,77 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyHub - Collaborative Learning Platform</title>
+    <title>SerialTradersFX</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">StudyHub</a>
-            <div class="nav-links">
-                <a href="#courses">Courses</a>
-                <a href="#upload">Upload</a>
-                <a href="#freelance">Get Help</a>
-                <button class="btn-login">Sign In</button>
-            </div>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#admin">Admins</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- Hero Section -->
+    <header>
+        <h1>SerialTradersFX</h1>
+        <p>Your Gateway to Smart Forex Trading</p>
+    </header>
+
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Collaborate. Learn. Succeed.</h1>
-                <p>Connect with peers, share resources, and get academic support</p>
-                <div class="search-bar">
-                    <input type="text" placeholder="Search courses...">
-                    <button><i class="fas fa-search"></i></button>
-                </div>
+        <h2>Trade Smarter, Not Harder</h2>
+        <p>Join the future of forex trading with expert insights and smart strategies.</p>
+        <button onclick="learnMore()">Learn More</button>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Market Analysis</h3>
+                <p>We provide expert market insights and real-time analysis.</p>
+            </div>
+            <div class="card">
+                <h3>Trading Signals</h3>
+                <p>Receive accurate forex signals to enhance your trading strategies.</p>
+            </div>
+            <div class="card">
+                <h3>Risk Management</h3>
+                <p>Learn effective techniques to manage trading risks smartly.</p>
+            </div>
+            <div class="card">
+                <h3>Personal Mentorship</h3>
+                <p>Get one-on-one mentorship from professional traders.</p>
             </div>
         </div>
     </section>
 
-    <!-- Course Categories -->
-    <section id="courses" class="courses">
-        <div class="container">
-            <h2>Popular Courses</h2>
-            <div class="course-grid">
-                <!-- JavaScript will populate this -->
+    <section id="admin" class="admin">
+        <h2>Meet Our Admins</h2>
+        <div class="admin-cards">
+            <div class="card">
+                <h3>John Doe</h3>
+                <p>Founder & Lead Analyst</p>
+            </div>
+            <div class="card">
+                <h3>Jane Smith</h3>
+                <p>Senior Trading Strategist</p>
             </div>
         </div>
     </section>
 
-    <!-- File Upload Section -->
-    <section id="upload" class="upload">
-        <div class="container">
-            <h2>Share Resources</h2>
-            <div class="upload-box">
-                <div class="drop-zone" id="dropZone">
-                    <i class="fas fa-file-upload fa-3x"></i>
-                    <p>Drag & Drop PDF or click to upload</p>
-                    <input type="file" id="fileInput" accept=".pdf">
-                </div>
-                <div class="upload-details">
-                    <input type="text" placeholder="Document title">
-                    <input type="text" placeholder="Course code">
-                    <button class="btn-upload">Share Now</button>
-                </div>
-            </div>
-        </div>
+    <section class="video-section">
+        <h2>Watch Our Trading Strategies</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </section>
 
-    <!-- Freelance Help Section -->
-    <section id="freelance" class="freelance">
-        <div class="container">
-            <h2>Get Expert Help</h2>
-            <div class="tutors-grid">
-                <!-- JavaScript will populate this -->
-            </div>
-        </div>
-    </section>
+    <footer>
+        <p>&copy; 2025 SerialTradersFX. All Rights Reserved.</p>
+        <marquee>Popular Trading Apps: MetaTrader 4 | MetaTrader 5 | TradingView | NinjaTrader | ThinkorSwim</marquee>
+    </footer>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
